@@ -29,13 +29,16 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.clear();
+		StdDraw.setPenColor (0, 85, 164);
+		StdDraw.filledRectangle(18.3333, 8, 3.6667, 8);
 		
-		// TODO
 	}
 
 	public static void indonesia() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 12, 11, 4);
 	}
 
 	public static void netherlands() {
@@ -44,13 +47,18 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void poland() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 4, 11, 4);
 	}
 
 	public static void thailand() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(165, 25, 49);
+		StdDraw.filledRectangle(11, 14.6666, 11, 1.3333);
+		StdDraw.filledRectangle(11, 1.3333, 11, 1.3333);
+		StdDraw.setPenColor(45, 42, 74);
+		StdDraw.filledRectangle(11, 8, 11, 2.6667);
 	}
 
 	public static void finland() {
